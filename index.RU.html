@@ -1,0 +1,130 @@
+<!DOCTYPE html> <html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Deployrb.GitHub.io by DeployRB</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">deployrb.github.io</h1>
+      <h2 class="project-tagline">Пример полного жизненного цикла Rails 5 приложения</h2>
+    </section>
+
+    <section class="main-content">
+      <div>
+        <a href='https://deployrb.github.io/'>
+        English version
+        </a>
+        |
+        <a href='https://deployrb.github.io/index.RU.html'>
+          Русская версия
+        </a>
+      </div>
+
+      <h2>Этот проект поможет вам:</h2>
+
+      <ol>
+        <li>
+          <a href='https://github.com/DeployRB/Rails5App'>
+            Создать и сконфигурировать новое Rails&nbsp;5&nbsp;приложение
+          </a>
+        </li>
+
+        <li>
+          <a href='https://github.com/DeployRB/SetupServer'>
+            Настроить типичный сервер для Rails&nbsp;5&nbsp;приложения
+          </a>
+        </li>
+
+        <li>
+          <a href='https://github.com/DeployRB/DeployTool'>
+            Задеплоить код Rails&nbsp;5&nbsp;приложения на сервер
+          </a>
+        </li>
+      </ol>
+
+      <h2>О Deploy.RB</h2>
+
+      <p>
+        Сегодня даже новое Rails&nbsp;5&nbsp;приложение зависит от большого кол-ва дополнительных сервисов: база данных, кеш-хранилище, поисковый движок, отложенные задачи и задачи по расписанию и т.д.
+      </p>
+
+      <p>
+        Этот проект должен помочь разработчику запустить небольшое Rails&nbsp;5&nbsp;приложение на продакшн сервере быстро и с минимальными усилиями.
+      </p>
+
+      <h2>ПРОБЛЕМА</h2>
+
+      <ul>
+        <li>
+          Я очень занят что бы найти время для экспериментов с Rails&nbsp;5 в режиме близком к продакшн среде, но я хочу быть в курсе новых возможностей, а потому мне требуется готовый, простой, но демонстративный пример. Я рассчитываю потратить на запуск приложения не более 30 минут.
+        </li>
+        <li>
+          Я новичок в Rails технологиях. Мне нужен пример Rails&nbsp;5&nbsp;приложения, что бы изучить жизненный цикл приложения от создания приложения <code>rails new</code> до деплоя <code>deploy</code>.
+        </li>
+      </ul>
+
+      <h2>Для кого?</h2>
+
+      <ul>
+        <li>
+          Для начинающих разработчиков, которым нужен пример полного жизненного цикла Rails&nbsp;5&nbsp;приложения.
+        </li>
+
+        <li>
+          Для продвинутых разработчиков, которым нужен пример простого Rails&nbsp;5&nbsp;приложения, которое можно запустить в режиме близкому к реальному продакшену, что бы по-эксперементировать с новыми возможностями Rails.
+        </li>
+
+        <li>
+          Для тех, кто планирует миграцию на Rails&nbsp;5, но хочет убедиться в готовности основных гемов к работе с Rails&nbsp;5.
+        </li>
+
+        <li>
+          Для online преподавателей для демонстрационных и образовательных целей.
+        </li>
+      </ul>
+
+      <h2>Что я найду в этом проекте?</h2>
+
+      <ol>
+        <li>
+          <a href='https://github.com/DeployRB/Rails5App'><b>Простое Rails&nbsp;5&nbsp;приложение</b></a> которое использует Redis, Sidekiq, Cron, Sphinx и ActionCable. Приложение было аккуратно настроено и подготовлено для обеспечения простого деплой процесса.
+          Вероятно, в этом простом приложении вы сможете найти и изучить полезные техники при создании нового приложения. Возможно это окажется полезным (или не окажется) в вашей ежедневной работе.
+        </li>
+
+        <li>
+          Хорошо протестированный
+          <a href='https://github.com/DeployRB/SetupServer/blob/master/article-2/install_script.sh'><b>BASH скрипт</b></a>
+          и
+          <a href='https://github.com/DeployRB/SetupServer'><b>Руководство</b></a>
+          которые помогут вам быстро и легко настроить сервер для экспериментов с Rails&nbsp;5&nbsp;приложением в production режиме.
+        </li>
+
+        <li>
+          <a href='https://github.com/DeployRB/DeployTool'><b>Простой инструмент деплоя</b></a> который был написан на Ruby в процедурно-ориентированном стиле.
+          Этот простой инструмент загружает Rails&nbsp;5&nbsp;приложение на сервер приблзительно так же, как это делает Capistrano. И данный инструмент может стать хорошим отправным пунктом для изучения типичного процесса деплоя Rails приложения. Процедурный стиль кода позволит разобраться в нем даже новичкам.
+        </li>
+      </ol>
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">
+          This page was generated by
+          <a href="https://pages.github.com">GitHub Pages</a>
+          using the
+          <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a>
+          by
+          <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </span>
+      </footer>
+    </section>
+  </body>
+</html>
+
